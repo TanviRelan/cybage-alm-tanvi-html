@@ -1,0 +1,19 @@
+{
+    "family": "cybage-alm-tanvi-taskdef",
+    "containerDefinitions": [
+        {
+            "image": "543816070942.dkr.ecr.us-east-1.amazonaws.com/cybage-alm-tanvi-html-ecr",
+            "name": "alm-cybage-tanvi-html",
+            "cpu": 10,
+            "memory": 300,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 0
+                    
+                }
+            ]
+        }
+    ]
+}
